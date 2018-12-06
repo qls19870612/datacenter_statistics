@@ -1,0 +1,498 @@
+[2018-11-22 10:38:17]###############################################
+[2018-11-22 10:38:17][START] game:diablo_cn, task_type:, task_count:1 ,debug:TRUE
+[2018-11-22 10:38:17]FROM 2018-11-20 TO 2018-11-20
+[2018-11-22 10:38:17]read 1 platforms.
+[2018-11-22 10:38:17]============================================
+[2018-11-22 10:38:17][DATE START] 2018-11-20
+[2018-11-22 10:38:17]---------------------------------------
+[2018-11-22 10:38:17][TASK START] common/AccountInfo
+[2018-11-22 10:38:17]#1 name: yy platform id: 1
+[2018-11-22 10:38:17]fetching data.....
+[2018-11-22 10:38:17]updating result db `account_info` .....
+[2018-11-22 10:38:17][TASK END] common/AccountInfo , time elapsed: 0.025s
+[2018-11-22 10:38:17][DATE END] 2018-11-20 , time elapsed: 0.028s
+[2018-11-22 10:38:17][END] time elapsed:0.038s
+[2018-11-22 10:47:07]###############################################
+[2018-11-22 10:47:07][START] game:diablo_cn, task_type:, task_count:1 ,debug:TRUE
+[2018-11-22 10:47:07]FROM 2018-11-20 TO 2018-11-20
+[2018-11-22 10:47:07]read 1 platforms.
+[2018-11-22 10:47:07]============================================
+[2018-11-22 10:47:07][DATE START] 2018-11-20
+[2018-11-22 10:47:07]---------------------------------------
+[2018-11-22 10:47:07][TASK START] common/AccountInfo
+[2018-11-22 10:47:07]#1 name: yy platform id: 1
+[2018-11-22 10:47:07]fetching data.....
+[2018-11-22 10:47:07]updating result db `account_info` .....
+[2018-11-22 10:47:07][TASK END] common/AccountInfo , time elapsed: 0.025s
+[2018-11-22 10:47:07][DATE END] 2018-11-20 , time elapsed: 0.028s
+[2018-11-22 10:47:07][END] time elapsed:0.039s
+[2018-11-22 10:49:34]###############################################
+[2018-11-22 10:49:34][START] game:diablo_cn, task_type:, task_count:1 ,debug:TRUE
+[2018-11-22 10:49:34]FROM 2018-11-20 TO 2018-11-20
+[2018-11-22 10:49:34]read 1 platforms.
+[2018-11-22 10:49:34]============================================
+[2018-11-22 10:49:34][DATE START] 2018-11-20
+[2018-11-22 10:49:34]---------------------------------------
+[2018-11-22 10:49:34][TASK START] common/AccountInfo
+[2018-11-22 10:49:34]#1 name: yy platform id: 1
+[2018-11-22 10:49:34]fetching data.....
+[2018-11-22 10:49:34]updating result db `account_info` .....
+[2018-11-22 10:49:34][TASK END] common/AccountInfo , time elapsed: 0.025s
+[2018-11-22 10:49:34][DATE END] 2018-11-20 , time elapsed: 0.028s
+[2018-11-22 10:49:34][END] time elapsed:0.038s
+[2018-11-22 10:52:04]###############################################
+[2018-11-22 10:52:04][START] game:diablo_cn, task_type:, task_count:1 ,debug:TRUE
+[2018-11-22 10:52:04]FROM 2018-11-20 TO 2018-11-20
+[2018-11-22 10:52:04]read 1 platforms.
+[2018-11-22 10:52:04]============================================
+[2018-11-22 10:52:04][DATE START] 2018-11-20
+[2018-11-22 10:52:04]---------------------------------------
+[2018-11-22 10:52:04][TASK START] common/AccountInfo
+[2018-11-22 10:52:04]#1 name: yy platform id: 1
+[2018-11-22 10:52:04]fetching data.....
+[2018-11-22 10:52:04]updating result db `account_info` .....
+[2018-11-22 10:52:04][TASK END] common/AccountInfo , time elapsed: 0.024s
+[2018-11-22 10:52:04][DATE END] 2018-11-20 , time elapsed: 0.027s
+[2018-11-22 10:52:04][END] time elapsed:0.038s
+[2018-11-22 10:52:44]###############################################
+[2018-11-22 10:52:44][START] game:diablo_cn, task_type:, task_count:1 ,debug:TRUE
+[2018-11-22 10:52:44]FROM 2018-11-20 TO 2018-11-20
+[2018-11-22 10:52:44]read 1 platforms.
+[2018-11-22 10:52:44]============================================
+[2018-11-22 10:52:44][DATE START] 2018-11-20
+[2018-11-22 10:52:44]---------------------------------------
+[2018-11-22 10:52:44][TASK START] common/AccountInfo
+[2018-11-22 10:52:44]#1 name: yy platform id: 1
+[2018-11-22 10:52:44]fetching data.....
+[2018-11-22 10:52:44]updating result db `account_info` .....
+[2018-11-22 10:52:44][TASK END] common/AccountInfo , time elapsed: 0.022s
+[2018-11-22 10:52:44][DATE END] 2018-11-20 , time elapsed: 0.025s
+[2018-11-22 10:52:44][END] time elapsed:0.036s
+[2018-11-22 11:01:11]###############################################
+[2018-11-22 11:01:11][START] game:diablo_cn, task_type:, task_count:1 ,debug:TRUE
+[2018-11-22 11:01:11]FROM 2018-11-20 TO 2018-11-20
+[2018-11-22 11:01:11]read 1 platforms.
+[2018-11-22 11:01:11]============================================
+[2018-11-22 11:01:11][DATE START] 2018-11-20
+[2018-11-22 11:01:11]---------------------------------------
+[2018-11-22 11:01:11][TASK START] common/AccountInfo
+[2018-11-22 11:01:11]#1 name: yy platform id: 1
+[2018-11-22 11:01:11]fetching data.....
+[2018-11-22 11:01:11]updating result db `account_info` .....
+[2018-11-22 11:01:11][TASK END] common/AccountInfo , time elapsed: 0.025s
+[2018-11-22 11:01:11][DATE END] 2018-11-20 , time elapsed: 0.027s
+[2018-11-22 11:01:11][END] time elapsed:0.038s
+[2018-11-22 11:01:33]###############################################
+[2018-11-22 11:01:33][START] game:diablo_cn, task_type:, task_count:1 ,debug:TRUE
+[2018-11-22 11:01:33]FROM 2018-11-20 TO 2018-11-20
+[2018-11-22 11:01:33]read 1 platforms.
+[2018-11-22 11:01:33]============================================
+[2018-11-22 11:01:33][DATE START] 2018-11-20
+[2018-11-22 11:01:33]---------------------------------------
+[2018-11-22 11:01:33][TASK START] common/AccountInfo
+[2018-11-22 11:01:33]#1 name: yy platform id: 1
+[2018-11-22 11:01:33]fetching data.....
+[2018-11-22 11:01:33]updating result db `account_info` .....
+[2018-11-22 11:01:33][TASK END] common/AccountInfo , time elapsed: 0.025s
+[2018-11-22 11:01:33][DATE END] 2018-11-20 , time elapsed: 0.028s
+[2018-11-22 11:01:33][END] time elapsed:0.039s
+[2018-11-22 11:01:48]###############################################
+[2018-11-22 11:01:48][START] game:diablo_cn, task_type:, task_count:1 ,debug:TRUE
+[2018-11-22 11:01:48]FROM 2018-11-20 TO 2018-11-20
+[2018-11-22 11:01:48]read 1 platforms.
+[2018-11-22 11:01:48]============================================
+[2018-11-22 11:01:48][DATE START] 2018-11-20
+[2018-11-22 11:01:48]---------------------------------------
+[2018-11-22 11:01:48][TASK START] common/AccountInfo
+[2018-11-22 11:01:48]#1 name: yy platform id: 1
+[2018-11-22 11:01:48]fetching data.....
+[2018-11-22 11:01:48]updating result db `account_info` .....
+[2018-11-22 11:01:48][TASK END] common/AccountInfo , time elapsed: 0.025s
+[2018-11-22 11:01:48][DATE END] 2018-11-20 , time elapsed: 0.028s
+[2018-11-22 11:01:48][END] time elapsed:0.039s
+[2018-11-22 11:08:08]###############################################
+[2018-11-22 11:08:08][START] game:diablo_cn, task_type:, task_count:1 ,debug:TRUE
+[2018-11-22 11:08:08]FROM 2018-11-20 TO 2018-11-20
+[2018-11-22 11:08:08]read 1 platforms.
+[2018-11-22 11:08:08]============================================
+[2018-11-22 11:08:08][DATE START] 2018-11-20
+[2018-11-22 11:08:08]---------------------------------------
+[2018-11-22 11:08:08][TASK START] common/AccountInfo
+[2018-11-22 11:08:08]#1 name: yy platform id: 1
+[2018-11-22 11:08:08]fetching data.....
+[2018-11-22 11:08:08]updating result db `account_info` .....
+[2018-11-22 11:08:08][TASK END] common/AccountInfo , time elapsed: 0.026s
+[2018-11-22 11:08:08][DATE END] 2018-11-20 , time elapsed: 0.029s
+[2018-11-22 11:08:08][END] time elapsed:0.041s
+[2018-11-22 11:08:09]###############################################
+[2018-11-22 11:08:09][START] game:diablo_cn, task_type:, task_count:1 ,debug:TRUE
+[2018-11-22 11:08:09]FROM 2018-11-20 TO 2018-11-20
+[2018-11-22 11:08:09]read 1 platforms.
+[2018-11-22 11:08:09]============================================
+[2018-11-22 11:08:09][DATE START] 2018-11-20
+[2018-11-22 11:08:09]---------------------------------------
+[2018-11-22 11:08:09][TASK START] common/DailyBasic
+[2018-11-22 11:08:09]#1 name: yy platform id: 1
+[2018-11-22 11:08:09]fetching data.....
+[2018-11-22 11:08:09]updating result db `daily_basic` .....
+[2018-11-22 11:08:09][TASK END] common/DailyBasic , time elapsed: 0.013s
+[2018-11-22 11:08:09][DATE END] 2018-11-20 , time elapsed: 0.016s
+[2018-11-22 11:08:09][END] time elapsed:0.027s
+[2018-11-22 11:08:09]###############################################
+[2018-11-22 11:08:09][START] game:diablo_cn, task_type:, task_count:1 ,debug:TRUE
+[2018-11-22 11:08:09]FROM 2018-11-20 TO 2018-11-20
+[2018-11-22 11:08:09]read 1 platforms.
+[2018-11-22 11:08:09]============================================
+[2018-11-22 11:08:09][DATE START] 2018-11-20
+[2018-11-22 11:08:09]---------------------------------------
+[2018-11-22 11:08:09][TASK START] common/DailyLTV
+[2018-11-22 11:08:09]#1 name: yy platform id: 1
+[2018-11-22 11:08:09]fetching data.....
+[2018-11-22 11:08:09]updating result db `daily_ltv` .....
+[2018-11-22 11:08:09][TASK END] common/DailyLTV , time elapsed: 0.013s
+[2018-11-22 11:08:09][DATE END] 2018-11-20 , time elapsed: 0.017s
+[2018-11-22 11:08:09][END] time elapsed:0.027s
+[2018-11-22 11:08:10]###############################################
+[2018-11-22 11:08:10][START] game:diablo_cn, task_type:, task_count:1 ,debug:TRUE
+[2018-11-22 11:08:10]FROM 2018-11-20 TO 2018-11-20
+[2018-11-22 11:08:10]read 1 platforms.
+[2018-11-22 11:08:10]============================================
+[2018-11-22 11:08:10][DATE START] 2018-11-20
+[2018-11-22 11:08:10]---------------------------------------
+[2018-11-22 11:08:10][TASK START] common/DailyRetention
+[2018-11-22 11:08:10]#1 name: yy platform id: 1
+[2018-11-22 11:08:10]fetching data.....
+[2018-11-22 11:08:10]updating result db `daily_retention` .....
+[2018-11-22 11:08:10][TASK END] common/DailyRetention , time elapsed: 0.012s
+[2018-11-22 11:08:10][DATE END] 2018-11-20 , time elapsed: 0.015s
+[2018-11-22 11:08:10][END] time elapsed:0.024s
+[2018-11-22 11:08:10]###############################################
+[2018-11-22 11:08:10][START] game:diablo_cn, task_type:, task_count:1 ,debug:TRUE
+[2018-11-22 11:08:10]FROM 2018-11-20 TO 2018-11-20
+[2018-11-22 11:08:10]read 1 platforms.
+[2018-11-22 11:08:10]============================================
+[2018-11-22 11:08:10][DATE START] 2018-11-20
+[2018-11-22 11:08:10]---------------------------------------
+[2018-11-22 11:08:10][TASK START] common/MonthlyBasic
+[2018-11-22 11:08:10]#1 name: yy platform id: 1
+[2018-11-22 11:08:10][TASK END] common/MonthlyBasic , time elapsed: 0.009s
+[2018-11-22 11:08:10][DATE END] 2018-11-20 , time elapsed: 0.012s
+[2018-11-22 11:08:10][END] time elapsed:0.027s
+[2018-11-22 11:08:11]###############################################
+[2018-11-22 11:08:11][START] game:diablo_cn, task_type:, task_count:1 ,debug:TRUE
+[2018-11-22 11:08:11]FROM 2018-11-20 TO 2018-11-20
+[2018-11-22 11:08:11]read 1 platforms.
+[2018-11-22 11:08:11]============================================
+[2018-11-22 11:08:11][DATE START] 2018-11-20
+[2018-11-22 11:08:11]---------------------------------------
+[2018-11-22 11:08:11][TASK START] common/ShopSummary
+[2018-11-22 11:08:11]#1 name: yy platform id: 1
+[2018-11-22 11:08:11]fetching data.....
+[2018-11-22 11:08:11]updating result db `shop_summary` .....
+[2018-11-22 11:08:11][TASK END] common/ShopSummary , time elapsed: 0.009s
+[2018-11-22 11:08:11][DATE END] 2018-11-20 , time elapsed: 0.019s
+[2018-11-22 11:08:11][END] time elapsed:0.04s
+[2018-11-22 11:08:11]###############################################
+[2018-11-22 11:08:11][START] game:diablo_cn, task_type:, task_count:1 ,debug:TRUE
+[2018-11-22 11:08:11]FROM 2018-11-20 TO 2018-11-20
+[2018-11-22 11:08:11]read 1 platforms.
+[2018-11-22 11:08:11]============================================
+[2018-11-22 11:08:11][DATE START] 2018-11-20
+[2018-11-22 11:08:11]---------------------------------------
+[2018-11-22 11:08:11][TASK START] common/Tb5DayRechargeStat
+[2018-11-22 11:08:11]#1 name: yy platform id: 1
+[2018-11-22 11:08:11]fetching data.....
+[2018-11-22 11:08:11]updating result db `tb5dayrechargestat` .....
+[2018-11-22 11:08:11][TASK END] common/Tb5DayRechargeStat , time elapsed: 0.021s
+[2018-11-22 11:08:11][DATE END] 2018-11-20 , time elapsed: 0.025s
+[2018-11-22 11:08:11][END] time elapsed:0.042s
+[2018-11-22 11:08:12]###############################################
+[2018-11-22 11:08:12][START] game:diablo_cn, task_type:, task_count:1 ,debug:TRUE
+[2018-11-22 11:08:12]FROM 2018-11-20 TO 2018-11-20
+[2018-11-22 11:08:12]read 1 platforms.
+[2018-11-22 11:08:12]============================================
+[2018-11-22 11:08:12][DATE START] 2018-11-20
+[2018-11-22 11:08:12]---------------------------------------
+[2018-11-22 11:08:12][TASK START] common/TbGoodsFlowConsumeStat
+[2018-11-22 11:08:12]#1 name: yy platform id: 1
+[2018-11-22 11:08:12]fetching data.....
+[2018-11-22 11:08:12]updating result db `tbgoodsflowconsumestat` .....
+[2018-11-22 11:08:12][TASK END] common/TbGoodsFlowConsumeStat , time elapsed: 0.02s
+[2018-11-22 11:08:12][DATE END] 2018-11-20 , time elapsed: 0.023s
+[2018-11-22 11:08:12][END] time elapsed:0.033s
+[2018-11-22 11:08:12]###############################################
+[2018-11-22 11:08:12][START] game:diablo_cn, task_type:, task_count:1 ,debug:TRUE
+[2018-11-22 11:08:12]FROM 2018-11-20 TO 2018-11-20
+[2018-11-22 11:08:12]read 1 platforms.
+[2018-11-22 11:08:12]============================================
+[2018-11-22 11:08:12][DATE START] 2018-11-20
+[2018-11-22 11:08:12]---------------------------------------
+[2018-11-22 11:08:12][TASK START] common/TbGoodsFlowProduceStat
+[2018-11-22 11:08:12]#1 name: yy platform id: 1
+[2018-11-22 11:08:12]fetching data.....
+[2018-11-22 11:08:12]updating result db `tbgoodsflowproducestat` .....
+[2018-11-22 11:08:12][TASK END] common/TbGoodsFlowProduceStat , time elapsed: 0.02s
+[2018-11-22 11:08:12][DATE END] 2018-11-20 , time elapsed: 0.023s
+[2018-11-22 11:08:12][END] time elapsed:0.033s
+[2018-11-22 11:08:13]###############################################
+[2018-11-22 11:08:13][START] game:diablo_cn, task_type:, task_count:1 ,debug:TRUE
+[2018-11-22 11:08:13]FROM 2018-11-20 TO 2018-11-20
+[2018-11-22 11:08:13]read 1 platforms.
+[2018-11-22 11:08:13]============================================
+[2018-11-22 11:08:13][DATE START] 2018-11-20
+[2018-11-22 11:08:13]---------------------------------------
+[2018-11-22 11:08:13][TASK START] common/TbPlayerLevelStat
+[2018-11-22 11:08:13]#1 name: yy platform id: 1
+[2018-11-22 11:08:13]fetching data.....
+[2018-11-22 11:08:13]updating result db `tbplayerlevelstat` .....
+[2018-11-22 11:08:13][TASK END] common/TbPlayerLevelStat , time elapsed: 0.012s
+[2018-11-22 11:08:13][DATE END] 2018-11-20 , time elapsed: 0.015s
+[2018-11-22 11:08:13][END] time elapsed:0.033s
+[2018-11-22 11:08:14]###############################################
+[2018-11-22 11:08:14][START] game:diablo_cn, task_type:, task_count:1 ,debug:TRUE
+[2018-11-22 11:08:14]FROM 2018-11-20 TO 2018-11-20
+[2018-11-22 11:08:14]read 1 platforms.
+[2018-11-22 11:08:14]============================================
+[2018-11-22 11:08:14][DATE START] 2018-11-20
+[2018-11-22 11:08:14]---------------------------------------
+[2018-11-22 11:08:14][TASK START] common/TbRefinedUpgradeStat
+[2018-11-22 11:08:14]#1 name: yy platform id: 1
+[2018-11-22 11:08:14]fetching data.....
+[2018-11-22 11:08:14]updating result db `tbrefinedupgradestat` .....
+[2018-11-22 11:08:14][TASK END] common/TbRefinedUpgradeStat , time elapsed: 0.018s
+[2018-11-22 11:08:14][DATE END] 2018-11-20 , time elapsed: 0.022s
+[2018-11-22 11:08:14][END] time elapsed:0.049s
+[2018-11-22 11:11:32]###############################################
+[2018-11-22 11:11:32][START] game:diablo_cn, task_type:, task_count:1 ,debug:TRUE
+[2018-11-22 11:11:32]FROM 2018-11-20 TO 2018-11-20
+[2018-11-22 11:11:32]read 1 platforms.
+[2018-11-22 11:11:32]============================================
+[2018-11-22 11:11:32][DATE START] 2018-11-20
+[2018-11-22 11:11:32]---------------------------------------
+[2018-11-22 11:11:32][TASK START] common/AccountInfo
+[2018-11-22 11:11:32]#1 name: yy platform id: 1
+[2018-11-22 11:11:32]fetching data.....
+[2018-11-22 11:11:32]updating result db `account_info` .....
+[2018-11-22 11:11:32][TASK END] common/AccountInfo , time elapsed: 0.023s
+[2018-11-22 11:11:32][DATE END] 2018-11-20 , time elapsed: 0.027s
+[2018-11-22 11:11:32][END] time elapsed:0.037s
+[2018-11-22 11:11:32]###############################################
+[2018-11-22 11:11:32][START] game:diablo_cn, task_type:, task_count:1 ,debug:TRUE
+[2018-11-22 11:11:32]FROM 2018-11-20 TO 2018-11-20
+[2018-11-22 11:11:32]read 1 platforms.
+[2018-11-22 11:11:32]============================================
+[2018-11-22 11:11:32][DATE START] 2018-11-20
+[2018-11-22 11:11:32]---------------------------------------
+[2018-11-22 11:11:32][TASK START] common/DailyBasic
+[2018-11-22 11:11:32]#1 name: yy platform id: 1
+[2018-11-22 11:11:32]fetching data.....
+[2018-11-22 11:11:32]updating result db `daily_basic` .....
+[2018-11-22 11:11:32][TASK END] common/DailyBasic , time elapsed: 0.013s
+[2018-11-22 11:11:32][DATE END] 2018-11-20 , time elapsed: 0.016s
+[2018-11-22 11:11:32][END] time elapsed:0.026s
+[2018-11-22 11:11:33]###############################################
+[2018-11-22 11:11:33][START] game:diablo_cn, task_type:, task_count:1 ,debug:TRUE
+[2018-11-22 11:11:33]FROM 2018-11-20 TO 2018-11-20
+[2018-11-22 11:11:33]read 1 platforms.
+[2018-11-22 11:11:33]============================================
+[2018-11-22 11:11:33][DATE START] 2018-11-20
+[2018-11-22 11:11:33]---------------------------------------
+[2018-11-22 11:11:33][TASK START] common/DailyLTV
+[2018-11-22 11:11:33]#1 name: yy platform id: 1
+[2018-11-22 11:11:33]fetching data.....
+[2018-11-22 11:11:33]updating result db `daily_ltv` .....
+[2018-11-22 11:11:33][TASK END] common/DailyLTV , time elapsed: 0.011s
+[2018-11-22 11:11:33][DATE END] 2018-11-20 , time elapsed: 0.014s
+[2018-11-22 11:11:33][END] time elapsed:0.024s
+[2018-11-22 11:11:33]###############################################
+[2018-11-22 11:11:33][START] game:diablo_cn, task_type:, task_count:1 ,debug:TRUE
+[2018-11-22 11:11:33]FROM 2018-11-20 TO 2018-11-20
+[2018-11-22 11:11:33]read 1 platforms.
+[2018-11-22 11:11:33]============================================
+[2018-11-22 11:11:33][DATE START] 2018-11-20
+[2018-11-22 11:11:33]---------------------------------------
+[2018-11-22 11:11:33][TASK START] common/DailyRetention
+[2018-11-22 11:11:33]#1 name: yy platform id: 1
+[2018-11-22 11:11:33]fetching data.....
+[2018-11-22 11:11:33]updating result db `daily_retention` .....
+[2018-11-22 11:11:33][TASK END] common/DailyRetention , time elapsed: 0.012s
+[2018-11-22 11:11:33][DATE END] 2018-11-20 , time elapsed: 0.015s
+[2018-11-22 11:11:33][END] time elapsed:0.025s
+[2018-11-22 11:11:34]###############################################
+[2018-11-22 11:11:34][START] game:diablo_cn, task_type:, task_count:1 ,debug:TRUE
+[2018-11-22 11:11:34]FROM 2018-11-20 TO 2018-11-20
+[2018-11-22 11:11:34]read 1 platforms.
+[2018-11-22 11:11:34]============================================
+[2018-11-22 11:11:34][DATE START] 2018-11-20
+[2018-11-22 11:11:34]---------------------------------------
+[2018-11-22 11:11:34][TASK START] common/MonthlyBasic
+[2018-11-22 11:11:34]#1 name: yy platform id: 1
+[2018-11-22 11:11:34][TASK END] common/MonthlyBasic , time elapsed: 0.021s
+[2018-11-22 11:11:34][DATE END] 2018-11-20 , time elapsed: 0.025s
+[2018-11-22 11:11:34][END] time elapsed:0.047s
+[2018-11-22 11:11:34]###############################################
+[2018-11-22 11:11:34][START] game:diablo_cn, task_type:, task_count:1 ,debug:TRUE
+[2018-11-22 11:11:34]FROM 2018-11-20 TO 2018-11-20
+[2018-11-22 11:11:34]read 1 platforms.
+[2018-11-22 11:11:34]============================================
+[2018-11-22 11:11:34][DATE START] 2018-11-20
+[2018-11-22 11:11:34]---------------------------------------
+[2018-11-22 11:11:34][TASK START] common/ShopSummary
+[2018-11-22 11:11:34]#1 name: yy platform id: 1
+[2018-11-22 11:11:34]fetching data.....
+[2018-11-22 11:11:34]updating result db `shop_summary` .....
+[2018-11-22 11:11:34][TASK END] common/ShopSummary , time elapsed: 0.017s
+[2018-11-22 11:11:34][DATE END] 2018-11-20 , time elapsed: 0.022s
+[2018-11-22 11:11:34][END] time elapsed:0.04s
+[2018-11-22 11:11:35]###############################################
+[2018-11-22 11:11:35][START] game:diablo_cn, task_type:, task_count:1 ,debug:TRUE
+[2018-11-22 11:11:35]FROM 2018-11-20 TO 2018-11-20
+[2018-11-22 11:11:35]read 1 platforms.
+[2018-11-22 11:11:35]============================================
+[2018-11-22 11:11:35][DATE START] 2018-11-20
+[2018-11-22 11:11:35]---------------------------------------
+[2018-11-22 11:11:35][TASK START] common/Tb5DayRechargeStat
+[2018-11-22 11:11:35]#1 name: yy platform id: 1
+[2018-11-22 11:11:35]fetching data.....
+[2018-11-22 11:11:35]updating result db `tb5dayrechargestat` .....
+[2018-11-22 11:11:35][TASK END] common/Tb5DayRechargeStat , time elapsed: 0.015s
+[2018-11-22 11:11:35][DATE END] 2018-11-20 , time elapsed: 0.018s
+[2018-11-22 11:11:35][END] time elapsed:0.044s
+[2018-11-22 11:11:36]###############################################
+[2018-11-22 11:11:36][START] game:diablo_cn, task_type:, task_count:1 ,debug:TRUE
+[2018-11-22 11:11:36]FROM 2018-11-20 TO 2018-11-20
+[2018-11-22 11:11:36]read 1 platforms.
+[2018-11-22 11:11:36]============================================
+[2018-11-22 11:11:36][DATE START] 2018-11-20
+[2018-11-22 11:11:36]---------------------------------------
+[2018-11-22 11:11:36][TASK START] common/TbGoodsFlowConsumeStat
+[2018-11-22 11:11:36]#1 name: yy platform id: 1
+[2018-11-22 11:11:36]fetching data.....
+[2018-11-22 11:11:36]updating result db `tbgoodsflowconsumestat` .....
+[2018-11-22 11:11:36][TASK END] common/TbGoodsFlowConsumeStat , time elapsed: 0.023s
+[2018-11-22 11:11:36][DATE END] 2018-11-20 , time elapsed: 0.026s
+[2018-11-22 11:11:36][END] time elapsed:0.05s
+[2018-11-22 11:11:36]###############################################
+[2018-11-22 11:11:36][START] game:diablo_cn, task_type:, task_count:1 ,debug:TRUE
+[2018-11-22 11:11:36]FROM 2018-11-20 TO 2018-11-20
+[2018-11-22 11:11:36]read 1 platforms.
+[2018-11-22 11:11:36]============================================
+[2018-11-22 11:11:36][DATE START] 2018-11-20
+[2018-11-22 11:11:36]---------------------------------------
+[2018-11-22 11:11:36][TASK START] common/TbGoodsFlowProduceStat
+[2018-11-22 11:11:36]#1 name: yy platform id: 1
+[2018-11-22 11:11:36]fetching data.....
+[2018-11-22 11:11:36]updating result db `tbgoodsflowproducestat` .....
+[2018-11-22 11:11:36][TASK END] common/TbGoodsFlowProduceStat , time elapsed: 0.011s
+[2018-11-22 11:11:36][DATE END] 2018-11-20 , time elapsed: 0.014s
+[2018-11-22 11:11:36][END] time elapsed:0.03s
+[2018-11-22 11:11:37]###############################################
+[2018-11-22 11:11:37][START] game:diablo_cn, task_type:, task_count:1 ,debug:TRUE
+[2018-11-22 11:11:37]FROM 2018-11-20 TO 2018-11-20
+[2018-11-22 11:11:37]read 1 platforms.
+[2018-11-22 11:11:37]============================================
+[2018-11-22 11:11:37][DATE START] 2018-11-20
+[2018-11-22 11:11:37]---------------------------------------
+[2018-11-22 11:11:37][TASK START] common/TbPlayerLevelStat
+[2018-11-22 11:11:37]#1 name: yy platform id: 1
+[2018-11-22 11:11:37]fetching data.....
+[2018-11-22 11:11:37]updating result db `tbplayerlevelstat` .....
+[2018-11-22 11:11:37][TASK END] common/TbPlayerLevelStat , time elapsed: 0.023s
+[2018-11-22 11:11:37][DATE END] 2018-11-20 , time elapsed: 0.027s
+[2018-11-22 11:11:37][END] time elapsed:0.048s
+[2018-11-22 11:11:37]###############################################
+[2018-11-22 11:11:37][START] game:diablo_cn, task_type:, task_count:1 ,debug:TRUE
+[2018-11-22 11:11:37]FROM 2018-11-20 TO 2018-11-20
+[2018-11-22 11:11:37]read 1 platforms.
+[2018-11-22 11:11:37]============================================
+[2018-11-22 11:11:37][DATE START] 2018-11-20
+[2018-11-22 11:11:37]---------------------------------------
+[2018-11-22 11:11:37][TASK START] common/TbRefinedUpgradeStat
+[2018-11-22 11:11:37]#1 name: yy platform id: 1
+[2018-11-22 11:11:37]fetching data.....
+[2018-11-22 11:11:37]updating result db `tbrefinedupgradestat` .....
+[2018-11-22 11:11:37][TASK END] common/TbRefinedUpgradeStat , time elapsed: 0.02s
+[2018-11-22 11:11:37][DATE END] 2018-11-20 , time elapsed: 0.023s
+[2018-11-22 11:11:37][END] time elapsed:0.036s
+[2018-11-22 11:14:38]###############################################
+[2018-11-22 11:14:38][START] game:diablo_cn, task_type:, task_count:1 ,debug:TRUE
+[2018-11-22 11:14:38]FROM 2018-11-20 TO 2018-11-20
+[2018-11-22 11:14:38]read 1 platforms.
+[2018-11-22 11:14:38]============================================
+[2018-11-22 11:14:38][DATE START] 2018-11-20
+[2018-11-22 11:14:38]---------------------------------------
+[2018-11-22 11:14:38][TASK START] common/AccountInfo
+[2018-11-22 11:14:38]#1 name: yy platform id: 1
+[2018-11-22 11:14:38]fetching data.....
+[2018-11-22 11:14:38]updating result db `account_info` .....
+[2018-11-22 11:14:38][TASK END] common/AccountInfo , time elapsed: 0.026s
+[2018-11-22 11:14:38][DATE END] 2018-11-20 , time elapsed: 0.028s
+[2018-11-22 11:14:38][END] time elapsed:0.038s
+[2018-11-22 11:14:38]###############################################
+[2018-11-22 11:14:38][START] game:diablo_cn, task_type:, task_count:1 ,debug:TRUE
+[2018-11-22 11:14:38]FROM 2018-11-20 TO 2018-11-20
+[2018-11-22 11:14:38]read 1 platforms.
+[2018-11-22 11:14:38]============================================
+[2018-11-22 11:14:38][DATE START] 2018-11-20
+[2018-11-22 11:14:38]---------------------------------------
+[2018-11-22 11:14:38][TASK START] common/DailyBasic
+[2018-11-22 11:14:38]#1 name: yy platform id: 1
+[2018-11-22 11:14:38]fetching data.....
+[2018-11-22 11:14:38]updating result db `daily_basic` .....
+[2018-11-22 11:14:38][TASK END] common/DailyBasic , time elapsed: 0.012s
+[2018-11-22 11:14:38][DATE END] 2018-11-20 , time elapsed: 0.015s
+[2018-11-22 11:14:38][END] time elapsed:0.026s
+[2018-11-22 11:14:39]###############################################
+[2018-11-22 11:14:39][START] game:diablo_cn, task_type:, task_count:1 ,debug:TRUE
+[2018-11-22 11:14:39]FROM 2018-11-20 TO 2018-11-20
+[2018-11-22 11:14:39]read 1 platforms.
+[2018-11-22 11:14:39]============================================
+[2018-11-22 11:14:39][DATE START] 2018-11-20
+[2018-11-22 11:14:39]---------------------------------------
+[2018-11-22 11:14:39][TASK START] common/DailyLTV
+[2018-11-22 11:14:39]#1 name: yy platform id: 1
+[2018-11-22 11:14:39]fetching data.....
+[2018-11-22 11:14:39]updating result db `daily_ltv` .....
+[2018-11-22 11:14:39][TASK END] common/DailyLTV , time elapsed: 0.014s
+[2018-11-22 11:14:39][DATE END] 2018-11-20 , time elapsed: 0.017s
+[2018-11-22 11:14:39][END] time elapsed:0.027s
+[2018-11-22 11:14:39]###############################################
+[2018-11-22 11:14:39][START] game:diablo_cn, task_type:, task_count:1 ,debug:TRUE
+[2018-11-22 11:14:39]FROM 2018-11-20 TO 2018-11-20
+[2018-11-22 11:14:39]read 1 platforms.
+[2018-11-22 11:14:39]============================================
+[2018-11-22 11:14:39][DATE START] 2018-11-20
+[2018-11-22 11:14:39]---------------------------------------
+[2018-11-22 11:14:39][TASK START] common/DailyRetention
+[2018-11-22 11:14:39]#1 name: yy platform id: 1
+[2018-11-22 11:14:39]fetching data.....
+[2018-11-22 11:14:39]updating result db `daily_retention` .....
+[2018-11-22 11:14:39][TASK END] common/DailyRetention , time elapsed: 0.028s
+[2018-11-22 11:14:39][DATE END] 2018-11-20 , time elapsed: 0.033s
+[2018-11-22 11:14:39][END] time elapsed:0.053s
+[2018-11-22 11:14:40]###############################################
+[2018-11-22 11:14:40][START] game:diablo_cn, task_type:, task_count:1 ,debug:TRUE
+[2018-11-22 11:14:40]FROM 2018-11-20 TO 2018-11-20
+[2018-11-22 11:14:40]read 1 platforms.
+[2018-11-22 11:14:40]============================================
+[2018-11-22 11:14:40][DATE START] 2018-11-20
+[2018-11-22 11:14:40]---------------------------------------
+[2018-11-22 11:14:40][TASK START] common/MonthlyBasic
+[2018-11-22 11:14:40]#1 name: yy platform id: 1
+[2018-11-22 11:14:40][TASK END] common/MonthlyBasic , time elapsed: 0.017s
+[2018-11-22 11:14:40][DATE END] 2018-11-20 , time elapsed: 0.021s
+[2018-11-22 11:14:40][END] time elapsed:0.052s
+[2018-11-22 11:14:40]###############################################
+[2018-11-22 11:14:40][START] game:diablo_cn, task_type:, task_count:1 ,debug:TRUE
+[2018-11-22 11:14:40]FROM 2018-11-20 TO 2018-11-20
+[2018-11-22 11:14:40]read 1 platforms.
+[2018-11-22 11:14:40]============================================
+[2018-11-22 11:14:40][DATE START] 2018-11-20
+[2018-11-22 11:14:40]---------------------------------------
+[2018-11-22 11:14:40][TASK START] common/ShopSummary
+[2018-11-22 11:14:40]#1 name: yy platform id: 1
+[2018-11-22 11:14:40]fetching data.....
+[2018-11-22 11:14:40]updating result db `shop_summary` .....
+[2018-11-22 11:14:40][TASK END] common/ShopSummary , time elapsed: 0.023s
+[2018-11-22 11:14:40][DATE END] 2018-11-20 , time elapsed: 0.027s
+[2018-11-22 11:14:40][END] time elapsed:0.047s
