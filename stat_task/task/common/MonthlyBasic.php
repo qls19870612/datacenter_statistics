@@ -18,8 +18,10 @@ class MonthlyBasic extends common\BaseTask
         if( !$this->isLastDayOfMonth($stat_day) ){
             return ;
         }
+
         //当前月份
-        $stat_month = substr($stat_day,0,6);
+        $stat_month = substr($stat_day,0,strrpos($stat_day,'-'));
+        common\Helper::log('$stat_month:'.$stat_month);
         $table_name = 'monthly_basic';
         //按区服,帐号分组,聚合每天的数据
         $accountGroupSql = "
@@ -36,14 +38,14 @@ class MonthlyBasic extends common\BaseTask
 
         $sql = "
         select '{$stat_month}-01' dtstatdate,worldid,
-        sum(if(substr(registertime,1,7)='{$stat_month}',1,0)) iRegisterAccount,
-        sum(if(substr(LastLoginTime,1,7)>='{$stat_month}',1,0)) iLoginAccount,
-        sum(if(DayPayAmount>0,1,0)) iPayAccount,
-        coalesce(sum(DayPayAmount),0) iPayAmount,
-        sum(if(substr(registertime,1,7)='{$stat_month}' and DayPayAmount>0,1,0)) iNewPayAccount,
-        coalesce(sum(if(substr(registertime,1,7)='{$stat_month}',DayPayAmount,0)),0) iNewPayAmount,
-        sum(if(DayShopAmount>0,1,0)) iShopAccount,
-        coalesce(sum(DayShopAmount),0) iShopAmount
+        sum(if(substr(registertime,1,7)='{$stat_month}',1,0)) RegisterAccount,
+        sum(if(substr(LastLoginTime,1,7)>='{$stat_month}',1,0)) LoginAccount,
+        sum(if(DayPayAmount>0,1,0)) PayAccount,
+        coalesce(sum(DayPayAmount),0) PayAmount,
+        sum(if(substr(registertime,1,7)='{$stat_month}' and DayPayAmount>0,1,0)) NewPayAccount,
+        coalesce(sum(if(substr(registertime,1,7)='{$stat_month}',DayPayAmount,0)),0) NewPayAmount,
+        sum(if(DayShopAmount>0,1,0)) ShopAccount,
+        coalesce(sum(DayShopAmount),0) ShopAmount
         from ( {$accountGroupSql} ) t
         group by worldid
         ";

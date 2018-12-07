@@ -1,0 +1,282 @@
+[2018-12-07 15:45:44]###############################################
+[2018-12-07 15:45:44][START] game:diablo_cn, task_type:, task_count:1 ,debug:TRUE
+[2018-12-07 15:45:44]FROM 2018-11-30 TO 2018-12-07
+[2018-12-07 15:45:44]read 1 platforms.
+[2018-12-07 15:45:44]============================================
+[2018-12-07 15:45:44][DATE START] 2018-11-30
+[2018-12-07 15:45:44]---------------------------------------
+[2018-12-07 15:45:44][TASK START] common/DailyRetention
+[2018-12-07 15:45:44]#1 name: yy platform id: 1
+[2018-12-07 15:45:44]DailyRetention$sql:
+        select dtstatdate,worldid,
+        substr(RegisterTime,1,10) RegisterDate,count(*) RetentionNum
+        from dbdiabloyyresult.account_info
+        where dtstatdate='2018-11-30' and substr(LastLoginTime,1,10)='2018-11-30'
+        and RegisterTime is not null
+        group by dtstatdate,worldid,substr(RegisterTime,1,10)
+        
+[2018-12-07 15:45:48]fetching data.....
+[2018-12-07 15:45:48]updating result db `daily_retention` .....
+[2018-12-07 15:45:48][TASK END] common/DailyRetention , time elapsed: 4.763s
+[2018-12-07 15:45:48][DATE END] 2018-11-30 , time elapsed: 4.768s
+[2018-12-07 15:45:48]============================================
+[2018-12-07 15:45:48][DATE START] 2018-12-01
+[2018-12-07 15:45:48]---------------------------------------
+[2018-12-07 15:45:48][TASK START] common/DailyRetention
+[2018-12-07 15:45:48]#1 name: yy platform id: 1
+[2018-12-07 15:45:49]DailyRetention$sql:
+        select dtstatdate,worldid,
+        substr(RegisterTime,1,10) RegisterDate,count(*) RetentionNum
+        from dbdiabloyyresult.account_info
+        where dtstatdate='2018-12-01' and substr(LastLoginTime,1,10)='2018-12-01'
+        and RegisterTime is not null
+        group by dtstatdate,worldid,substr(RegisterTime,1,10)
+        
+[2018-12-07 15:45:49]fetching data.....
+[2018-12-07 15:45:49]updating result db `daily_retention` .....
+[2018-12-07 15:45:49][TASK END] common/DailyRetention , time elapsed: 0.056s
+[2018-12-07 15:45:49][DATE END] 2018-12-01 , time elapsed: 0.064s
+[2018-12-07 15:45:49]============================================
+[2018-12-07 15:45:49][DATE START] 2018-12-02
+[2018-12-07 15:45:49]---------------------------------------
+[2018-12-07 15:45:49][TASK START] common/DailyRetention
+[2018-12-07 15:45:49]#1 name: yy platform id: 1
+[2018-12-07 15:45:49]DailyRetention$sql:
+        select dtstatdate,worldid,
+        substr(RegisterTime,1,10) RegisterDate,count(*) RetentionNum
+        from dbdiabloyyresult.account_info
+        where dtstatdate='2018-12-02' and substr(LastLoginTime,1,10)='2018-12-02'
+        and RegisterTime is not null
+        group by dtstatdate,worldid,substr(RegisterTime,1,10)
+        
+[2018-12-07 15:45:49]fetching data.....
+[2018-12-07 15:45:49]updating result db `daily_retention` .....
+[2018-12-07 15:45:49][TASK END] common/DailyRetention , time elapsed: 0.116s
+[2018-12-07 15:45:49][DATE END] 2018-12-02 , time elapsed: 0.121s
+[2018-12-07 15:45:49]============================================
+[2018-12-07 15:45:49][DATE START] 2018-12-03
+[2018-12-07 15:45:49]---------------------------------------
+[2018-12-07 15:45:49][TASK START] common/DailyRetention
+[2018-12-07 15:45:49]#1 name: yy platform id: 1
+[2018-12-07 15:45:49]DailyRetention$sql:
+        select dtstatdate,worldid,
+        substr(RegisterTime,1,10) RegisterDate,count(*) RetentionNum
+        from dbdiabloyyresult.account_info
+        where dtstatdate='2018-12-03' and substr(LastLoginTime,1,10)='2018-12-03'
+        and RegisterTime is not null
+        group by dtstatdate,worldid,substr(RegisterTime,1,10)
+        
+[2018-12-07 15:45:49]fetching data.....
+[2018-12-07 15:45:49]updating result db `daily_retention` .....
+[2018-12-07 15:45:49][TASK END] common/DailyRetention , time elapsed: 0.087s
+[2018-12-07 15:45:49][DATE END] 2018-12-03 , time elapsed: 0.092s
+[2018-12-07 15:45:49]============================================
+[2018-12-07 15:45:49][DATE START] 2018-12-04
+[2018-12-07 15:45:49]---------------------------------------
+[2018-12-07 15:45:49][TASK START] common/DailyRetention
+[2018-12-07 15:45:49]#1 name: yy platform id: 1
+[2018-12-07 15:45:49]DailyRetention$sql:
+        select dtstatdate,worldid,
+        substr(RegisterTime,1,10) RegisterDate,count(*) RetentionNum
+        from dbdiabloyyresult.account_info
+        where dtstatdate='2018-12-04' and substr(LastLoginTime,1,10)='2018-12-04'
+        and RegisterTime is not null
+        group by dtstatdate,worldid,substr(RegisterTime,1,10)
+        
+[2018-12-07 15:45:49]fetching data.....
+[2018-12-07 15:45:49]updating result db `daily_retention` .....
+[2018-12-07 15:45:49][TASK END] common/DailyRetention , time elapsed: 0.174s
+[2018-12-07 15:45:49][DATE END] 2018-12-04 , time elapsed: 0.179s
+[2018-12-07 15:45:49]============================================
+[2018-12-07 15:45:49][DATE START] 2018-12-05
+[2018-12-07 15:45:49]---------------------------------------
+[2018-12-07 15:45:49][TASK START] common/DailyRetention
+[2018-12-07 15:45:49]#1 name: yy platform id: 1
+[2018-12-07 15:45:49]DailyRetention$sql:
+        select dtstatdate,worldid,
+        substr(RegisterTime,1,10) RegisterDate,count(*) RetentionNum
+        from dbdiabloyyresult.account_info
+        where dtstatdate='2018-12-05' and substr(LastLoginTime,1,10)='2018-12-05'
+        and RegisterTime is not null
+        group by dtstatdate,worldid,substr(RegisterTime,1,10)
+        
+[2018-12-07 15:45:49]fetching data.....
+[2018-12-07 15:45:49]updating result db `daily_retention` .....
+[2018-12-07 15:45:49][TASK END] common/DailyRetention , time elapsed: 0.098s
+[2018-12-07 15:45:49][DATE END] 2018-12-05 , time elapsed: 0.103s
+[2018-12-07 15:45:49]============================================
+[2018-12-07 15:45:49][DATE START] 2018-12-06
+[2018-12-07 15:45:49]---------------------------------------
+[2018-12-07 15:45:49][TASK START] common/DailyRetention
+[2018-12-07 15:45:49]#1 name: yy platform id: 1
+[2018-12-07 15:45:49]DailyRetention$sql:
+        select dtstatdate,worldid,
+        substr(RegisterTime,1,10) RegisterDate,count(*) RetentionNum
+        from dbdiabloyyresult.account_info
+        where dtstatdate='2018-12-06' and substr(LastLoginTime,1,10)='2018-12-06'
+        and RegisterTime is not null
+        group by dtstatdate,worldid,substr(RegisterTime,1,10)
+        
+[2018-12-07 15:45:49]fetching data.....
+[2018-12-07 15:45:49]updating result db `daily_retention` .....
+[2018-12-07 15:45:49][TASK END] common/DailyRetention , time elapsed: 0.099s
+[2018-12-07 15:45:49][DATE END] 2018-12-06 , time elapsed: 0.103s
+[2018-12-07 15:45:49]============================================
+[2018-12-07 15:45:49][DATE START] 2018-12-07
+[2018-12-07 15:45:49]---------------------------------------
+[2018-12-07 15:45:49][TASK START] common/DailyRetention
+[2018-12-07 15:45:49]#1 name: yy platform id: 1
+[2018-12-07 15:45:49]DailyRetention$sql:
+        select dtstatdate,worldid,
+        substr(RegisterTime,1,10) RegisterDate,count(*) RetentionNum
+        from dbdiabloyyresult.account_info
+        where dtstatdate='2018-12-07' and substr(LastLoginTime,1,10)='2018-12-07'
+        and RegisterTime is not null
+        group by dtstatdate,worldid,substr(RegisterTime,1,10)
+        
+[2018-12-07 15:45:49]fetching data.....
+[2018-12-07 15:45:49]updating result db `daily_retention` .....
+[2018-12-07 15:45:49][TASK END] common/DailyRetention , time elapsed: 0.049s
+[2018-12-07 15:45:49][DATE END] 2018-12-07 , time elapsed: 0.053s
+[2018-12-07 15:45:49][END] time elapsed:5.574s
+[2018-12-07 15:46:27]###############################################
+[2018-12-07 15:46:27][START] game:diablo_cn, task_type:, task_count:1 ,debug:TRUE
+[2018-12-07 15:46:27]FROM 2018-11-30 TO 2018-12-07
+[2018-12-07 15:46:27]read 1 platforms.
+[2018-12-07 15:46:27]============================================
+[2018-12-07 15:46:27][DATE START] 2018-11-30
+[2018-12-07 15:46:27]---------------------------------------
+[2018-12-07 15:46:27][TASK START] common/DailyRetention
+[2018-12-07 15:46:27]#1 name: yy platform id: 1
+[2018-12-07 15:46:27]DailyRetention$sql:
+        select dtstatdate,worldid,
+        substr(RegisterTime,1,10) RegisterDate,count(*) RetentionNum
+        from dbdiabloyyresult.account_info
+        where dtstatdate='2018-11-30' and substr(LastLoginTime,1,10)='2018-11-30'
+        and RegisterTime is not null
+        group by dtstatdate,worldid,substr(RegisterTime,1,10)
+        ;
+[2018-12-07 15:46:27]fetching data.....
+[2018-12-07 15:46:27]updating result db `daily_retention` .....
+[2018-12-07 15:46:27][TASK END] common/DailyRetention , time elapsed: 0.058s
+[2018-12-07 15:46:27][DATE END] 2018-11-30 , time elapsed: 0.061s
+[2018-12-07 15:46:27]============================================
+[2018-12-07 15:46:27][DATE START] 2018-12-01
+[2018-12-07 15:46:27]---------------------------------------
+[2018-12-07 15:46:27][TASK START] common/DailyRetention
+[2018-12-07 15:46:27]#1 name: yy platform id: 1
+[2018-12-07 15:46:27]DailyRetention$sql:
+        select dtstatdate,worldid,
+        substr(RegisterTime,1,10) RegisterDate,count(*) RetentionNum
+        from dbdiabloyyresult.account_info
+        where dtstatdate='2018-12-01' and substr(LastLoginTime,1,10)='2018-12-01'
+        and RegisterTime is not null
+        group by dtstatdate,worldid,substr(RegisterTime,1,10)
+        ;
+[2018-12-07 15:46:27]fetching data.....
+[2018-12-07 15:46:27]updating result db `daily_retention` .....
+[2018-12-07 15:46:27][TASK END] common/DailyRetention , time elapsed: 0.051s
+[2018-12-07 15:46:27][DATE END] 2018-12-01 , time elapsed: 0.053s
+[2018-12-07 15:46:27]============================================
+[2018-12-07 15:46:27][DATE START] 2018-12-02
+[2018-12-07 15:46:27]---------------------------------------
+[2018-12-07 15:46:27][TASK START] common/DailyRetention
+[2018-12-07 15:46:27]#1 name: yy platform id: 1
+[2018-12-07 15:46:27]DailyRetention$sql:
+        select dtstatdate,worldid,
+        substr(RegisterTime,1,10) RegisterDate,count(*) RetentionNum
+        from dbdiabloyyresult.account_info
+        where dtstatdate='2018-12-02' and substr(LastLoginTime,1,10)='2018-12-02'
+        and RegisterTime is not null
+        group by dtstatdate,worldid,substr(RegisterTime,1,10)
+        ;
+[2018-12-07 15:46:27]fetching data.....
+[2018-12-07 15:46:27]updating result db `daily_retention` .....
+[2018-12-07 15:46:27][TASK END] common/DailyRetention , time elapsed: 0.086s
+[2018-12-07 15:46:27][DATE END] 2018-12-02 , time elapsed: 0.088s
+[2018-12-07 15:46:27]============================================
+[2018-12-07 15:46:27][DATE START] 2018-12-03
+[2018-12-07 15:46:27]---------------------------------------
+[2018-12-07 15:46:27][TASK START] common/DailyRetention
+[2018-12-07 15:46:27]#1 name: yy platform id: 1
+[2018-12-07 15:46:27]DailyRetention$sql:
+        select dtstatdate,worldid,
+        substr(RegisterTime,1,10) RegisterDate,count(*) RetentionNum
+        from dbdiabloyyresult.account_info
+        where dtstatdate='2018-12-03' and substr(LastLoginTime,1,10)='2018-12-03'
+        and RegisterTime is not null
+        group by dtstatdate,worldid,substr(RegisterTime,1,10)
+        ;
+[2018-12-07 15:46:27]fetching data.....
+[2018-12-07 15:46:27]updating result db `daily_retention` .....
+[2018-12-07 15:46:27][TASK END] common/DailyRetention , time elapsed: 0.083s
+[2018-12-07 15:46:27][DATE END] 2018-12-03 , time elapsed: 0.085s
+[2018-12-07 15:46:27]============================================
+[2018-12-07 15:46:27][DATE START] 2018-12-04
+[2018-12-07 15:46:27]---------------------------------------
+[2018-12-07 15:46:27][TASK START] common/DailyRetention
+[2018-12-07 15:46:27]#1 name: yy platform id: 1
+[2018-12-07 15:46:27]DailyRetention$sql:
+        select dtstatdate,worldid,
+        substr(RegisterTime,1,10) RegisterDate,count(*) RetentionNum
+        from dbdiabloyyresult.account_info
+        where dtstatdate='2018-12-04' and substr(LastLoginTime,1,10)='2018-12-04'
+        and RegisterTime is not null
+        group by dtstatdate,worldid,substr(RegisterTime,1,10)
+        ;
+[2018-12-07 15:46:27]fetching data.....
+[2018-12-07 15:46:27]updating result db `daily_retention` .....
+[2018-12-07 15:46:27][TASK END] common/DailyRetention , time elapsed: 0.084s
+[2018-12-07 15:46:27][DATE END] 2018-12-04 , time elapsed: 0.088s
+[2018-12-07 15:46:27]============================================
+[2018-12-07 15:46:27][DATE START] 2018-12-05
+[2018-12-07 15:46:27]---------------------------------------
+[2018-12-07 15:46:27][TASK START] common/DailyRetention
+[2018-12-07 15:46:27]#1 name: yy platform id: 1
+[2018-12-07 15:46:27]DailyRetention$sql:
+        select dtstatdate,worldid,
+        substr(RegisterTime,1,10) RegisterDate,count(*) RetentionNum
+        from dbdiabloyyresult.account_info
+        where dtstatdate='2018-12-05' and substr(LastLoginTime,1,10)='2018-12-05'
+        and RegisterTime is not null
+        group by dtstatdate,worldid,substr(RegisterTime,1,10)
+        ;
+[2018-12-07 15:46:27]fetching data.....
+[2018-12-07 15:46:27]updating result db `daily_retention` .....
+[2018-12-07 15:46:27][TASK END] common/DailyRetention , time elapsed: 0.096s
+[2018-12-07 15:46:27][DATE END] 2018-12-05 , time elapsed: 0.101s
+[2018-12-07 15:46:27]============================================
+[2018-12-07 15:46:27][DATE START] 2018-12-06
+[2018-12-07 15:46:27]---------------------------------------
+[2018-12-07 15:46:27][TASK START] common/DailyRetention
+[2018-12-07 15:46:27]#1 name: yy platform id: 1
+[2018-12-07 15:46:27]DailyRetention$sql:
+        select dtstatdate,worldid,
+        substr(RegisterTime,1,10) RegisterDate,count(*) RetentionNum
+        from dbdiabloyyresult.account_info
+        where dtstatdate='2018-12-06' and substr(LastLoginTime,1,10)='2018-12-06'
+        and RegisterTime is not null
+        group by dtstatdate,worldid,substr(RegisterTime,1,10)
+        ;
+[2018-12-07 15:46:27]fetching data.....
+[2018-12-07 15:46:27]updating result db `daily_retention` .....
+[2018-12-07 15:46:27][TASK END] common/DailyRetention , time elapsed: 0.092s
+[2018-12-07 15:46:27][DATE END] 2018-12-06 , time elapsed: 0.095s
+[2018-12-07 15:46:27]============================================
+[2018-12-07 15:46:27][DATE START] 2018-12-07
+[2018-12-07 15:46:27]---------------------------------------
+[2018-12-07 15:46:27][TASK START] common/DailyRetention
+[2018-12-07 15:46:27]#1 name: yy platform id: 1
+[2018-12-07 15:46:27]DailyRetention$sql:
+        select dtstatdate,worldid,
+        substr(RegisterTime,1,10) RegisterDate,count(*) RetentionNum
+        from dbdiabloyyresult.account_info
+        where dtstatdate='2018-12-07' and substr(LastLoginTime,1,10)='2018-12-07'
+        and RegisterTime is not null
+        group by dtstatdate,worldid,substr(RegisterTime,1,10)
+        ;
+[2018-12-07 15:46:27]fetching data.....
+[2018-12-07 15:46:27]updating result db `daily_retention` .....
+[2018-12-07 15:46:27][TASK END] common/DailyRetention , time elapsed: 0.05s
+[2018-12-07 15:46:27][DATE END] 2018-12-07 , time elapsed: 0.053s
+[2018-12-07 15:46:27][END] time elapsed:0.691s

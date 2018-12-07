@@ -186,7 +186,7 @@ class BaseTask {
      */
     public function isLastDayOfMonth($date)
     {
-        $date = substr($date,0,9);
+        $date = substr($date,0,10);
         //下个月
         $nextMonth = date('Y-m', strtotime('+1 month', strtotime($date)));
         //本月最后一天

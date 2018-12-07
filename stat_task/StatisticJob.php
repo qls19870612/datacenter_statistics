@@ -3,6 +3,7 @@ namespace app;
 
 use common\Helper;
 use common\MysqlPdo;
+use Grpc\Timeval;
 use task;
 
 /**
@@ -174,14 +175,22 @@ class StatisticJob {
 
     protected function setDate() {
         //开始日期处理
+        $afterDay = 365;//最大可统计往后一年
         if (isset($_SERVER['argv'][3])) {
             $inputStartDate = $_SERVER['argv'][3];
-            if (strtotime($inputStartDate) !== false) {
-                $this->startDate = date('Y-m-d', strtotime($inputStartDate));
-            } else {
-                Helper::log('wrong startDate param');
-                exit(1);
+            if($inputStartDate <=$afterDay)
+            {
+                $this->startDate = date('Y-m-d', time() + $inputStartDate * 86400);
             }
+            else{
+                if (strtotime($inputStartDate) !== false) {
+                    $this->startDate = date('Y-m-d', strtotime($inputStartDate));
+                } else {
+                    Helper::log('wrong startDate param');
+                    exit(1);
+                }
+            }
+
         } else {
             $this->startDate = date('Y-m-d', strtotime('-1 day'));
         }
@@ -189,15 +198,28 @@ class StatisticJob {
         //结束日期
         if (isset($_SERVER['argv'][4])) {
             $inputEndDate = $_SERVER['argv'][4];
-            if (strtotime($inputEndDate) !== false) {
-                $this->endDate = date('Y-m-d', strtotime($inputEndDate));
-            } else {
-                Helper::log('wrong endDate param');
-                exit(1);
+            if($inputEndDate <=$afterDay)
+            {
+                $this->endDate = date('Y-m-d', time() + $inputEndDate * 86400);
             }
+            else{
+                if (strtotime($inputEndDate) !== false) {
+                    $this->endDate = date('Y-m-d', strtotime($inputEndDate));
+                } else {
+                    Helper::log('wrong endDate param');
+                    exit(1);
+                }
+            }
+
         } else {
             $this->endDate = $this->startDate;
         }
+        if(strtotime($this->startDate) > strtotime($this->endDate))
+        {
+            Helper::log("start day can not bigger than end date!");
+            exit(1);
+        }
+
     }
 
     protected function setTaskConfig($config) {
