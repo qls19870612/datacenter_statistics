@@ -24,12 +24,12 @@ class StatisticJob {
     public $dbConfig;
 
     /**
-     * @var string 游戏名称 如 bhs
+     * @var string 游戏名称 如 diablo
      */
     public $gameName;
 
     /**
-     * @var string 游戏代号 如 bhs_cn
+     * @var string 游戏代号 如 diablo_cn
      */
     public $gameCode;
 
