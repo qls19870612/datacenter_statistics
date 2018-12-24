@@ -1,6 +1,7 @@
 <?php
 namespace common\ParallelCurl;
 
+use common\Helper;
 use \Thread;
 
 class AsyncOperation extends Thread {
@@ -34,11 +35,13 @@ class AsyncOperation extends Thread {
         curl_setopt($ch, CURLOPT_URL, $this->url);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
         curl_setopt($ch, CURLOPT_HEADER, 0);
-        curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 2);
+        curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 10);
         curl_setopt($ch, CURLOPT_TIMEOUT, 3);
+
         if ($this->data!==null) {
             curl_setopt($ch, CURLOPT_POST, 1);
-            curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($this->data));
+            $str = http_build_query($this->data);
+            curl_setopt($ch, CURLOPT_POSTFIELDS, $str);
         }
 //        $times = 0;
 //        do {

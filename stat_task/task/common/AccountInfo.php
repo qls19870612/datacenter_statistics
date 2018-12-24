@@ -103,7 +103,7 @@ class AccountInfo extends common\BaseTask
         group by uin,worldid 
         ";
 
-        $this->fetchAndUpdate($table_name, $sql, null, self::DB_TYPE_RESULT);
+        $this->fetchAndUpdate($table_name, $sql, null, self::DB_TYPE_LOG);
 
     }
 }

@@ -1,9 +1,9 @@
 <?php
+
 namespace app;
 
 use common\Helper;
 use common\MysqlPdo;
-use Grpc\Timeval;
 use task;
 
 /**
@@ -17,7 +17,8 @@ use task;
  * 省略platform则表示所有平台
  * 只能省略最后的参数,不能省略中间的参数.
  */
-class StatisticJob {
+class StatisticJob
+{
 
     public $taskName;
 
@@ -56,22 +57,26 @@ class StatisticJob {
 
     public $taskType;
 
-    public function __construct($config) {
+    public function __construct($config)
+    {
         $this->readInputParams();
         $this->setDbConfig($config['db']);
         $this->setTaskConfig($config['task']);
+        $this->initConfig($config);
     }
 
     /**
      * 读取命令行输入参数
      */
-    protected function readInputParams() {
+    protected function readInputParams()
+    {
         $this->setGameCode();
         $this->setTaskType();
         $this->setDate();
     }
 
-    public function run() {
+    public function run()
+    {
         $runTime = date('Y-m-d H:i:s');//脚本开始运行时间,DIP采集基准时间
         $this->beginLog();
         $this->readPlatformData();
@@ -92,7 +97,6 @@ class StatisticJob {
                 foreach ($this->platform as $plt) {//遍历平台
                     $pltName = $plt['vPname'];
                     $pltId = $plt['iPid'];
-                    Helper::log("#{$count} name: {$pltName} platform id: {$pltId}");
                     $task = new $className($taskName, $this->gameCode, $this->gameName, $pltName, $pltId, $this->dbConfig, $curDate, $runTime);
                     /* @var $task \common\BaseTask */
                     $task->init();
@@ -108,19 +112,22 @@ class StatisticJob {
         $this->endLog();
     }
 
-    protected function beginLog() {
+    protected function beginLog()
+    {
         $this->startTime = microtime(true);
         Helper::log('###############################################');
         Helper::log("[START] game:$this->gameCode, task_type:$this->taskType, task_count:" . count($this->taskConfig) . " ,debug:" . (DEBUG ? 'TRUE' : 'FALSE'));
         Helper::log("FROM {$this->startDate} TO {$this->endDate}");
     }
 
-    protected function endLog() {
+    protected function endLog()
+    {
         Helper::log("[END] time elapsed:" . Helper::formatTimeInterval(microtime(true) - $this->startTime));
         Helper::moveTmpLog();//只在成功完成任务时,将临时日志转移至主日志
     }
 
-    protected function readPlatformData() {
+    protected function readPlatformData()
+    {
         if (isset($_SERVER['argv'][5])) {
             $dbConf = new MysqlPdo($this->dbConfig['result']);
             $this->platform = $dbConf->fetchAll("
@@ -141,7 +148,8 @@ class StatisticJob {
         }
     }
 
-    protected function setTaskType() {
+    protected function setTaskType()
+    {
         if (isset($_SERVER['argv']) && isset($_SERVER['argv'][2])) {
             $task = $_SERVER['argv'][2];
             if (stripos($task, '/') === false) {
@@ -154,7 +162,8 @@ class StatisticJob {
         }
     }
 
-    protected function setGameCode() {
+    protected function setGameCode()
+    {
         if (isset($_SERVER['argv']) && isset($_SERVER['argv'][1])) {
             $this->gameCode = $_SERVER['argv'][1];
             Helper::$gameCode = $this->gameCode;
@@ -163,7 +172,8 @@ class StatisticJob {
         }
     }
 
-    protected function setDbConfig($config) {
+    protected function setDbConfig($config)
+    {
         if (isset($config[$this->gameCode])) {
             $this->dbConfig = $config[$this->gameCode];
             $this->gameName = $this->dbConfig['name'];
@@ -173,16 +183,15 @@ class StatisticJob {
 
     }
 
-    protected function setDate() {
+    protected function setDate()
+    {
         //开始日期处理
         $afterDay = 365;//最大可统计往后一年
         if (isset($_SERVER['argv'][3])) {
             $inputStartDate = $_SERVER['argv'][3];
-            if($inputStartDate <=$afterDay)
-            {
+            if ($inputStartDate <= $afterDay) {
                 $this->startDate = date('Y-m-d', time() + $inputStartDate * 86400);
-            }
-            else{
+            } else {
                 if (strtotime($inputStartDate) !== false) {
                     $this->startDate = date('Y-m-d', strtotime($inputStartDate));
                 } else {
@@ -198,11 +207,9 @@ class StatisticJob {
         //结束日期
         if (isset($_SERVER['argv'][4])) {
             $inputEndDate = $_SERVER['argv'][4];
-            if($inputEndDate <=$afterDay)
-            {
+            if ($inputEndDate <= $afterDay) {
                 $this->endDate = date('Y-m-d', time() + $inputEndDate * 86400);
-            }
-            else{
+            } else {
                 if (strtotime($inputEndDate) !== false) {
                     $this->endDate = date('Y-m-d', strtotime($inputEndDate));
                 } else {
@@ -214,15 +221,15 @@ class StatisticJob {
         } else {
             $this->endDate = $this->startDate;
         }
-        if(strtotime($this->startDate) > strtotime($this->endDate))
-        {
+        if (strtotime($this->startDate) > strtotime($this->endDate)) {
             Helper::log("start day can not bigger than end date!");
             exit(1);
         }
 
     }
 
-    protected function setTaskConfig($config) {
+    protected function setTaskConfig($config)
+    {
         if (!empty($this->taskName)) {
             $this->taskConfig = array($this->taskName);
         } elseif (!empty($this->taskType) && isset($config[$this->gameCode][$this->taskType])) {
@@ -231,6 +238,10 @@ class StatisticJob {
             exit('can not find task config.');
         }
 
+    }
+
+    protected function initConfig($config)
+    {
     }
 
 

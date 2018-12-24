@@ -75,12 +75,20 @@ class BaseTask {
      * 初始化工作可以由子类实现
      */
     public function init() {
-        $this->hiveSchema = isset($this->dbConfig['hive_schema']) ? $this->dbConfig['hive_schema'] : $this->gameName;
-        $this->dbLog = new PrestoClient($this->hiveSchema);
+//        $this->hiveSchema = isset($this->dbConfig['hive_schema']) ? $this->dbConfig['hive_schema'] : $this->gameName;
+//        $this->dbLog = new PrestoClient($this->hiveSchema);
+//        if (isset($this->dbConfig['result'])) {
+//            $this->dbResult = new MysqlPdo($this->dbConfig['result']);
+//            $this->dbResult->query("USE `db{$this->gameName}{$this->platform}result`");
+//        }
+        $this->hiveSchema ="db{$this->gameName}{$this->platform}log";
+        $this->dbLog = new MysqlPdo($this->dbConfig['log']);
+        $this->dbLog->query("USE `{$this->hiveSchema}`");
         if (isset($this->dbConfig['result'])) {
             $this->dbResult = new MysqlPdo($this->dbConfig['result']);
             $this->dbResult->query("USE `db{$this->gameName}{$this->platform}result`");
         }
+
     }
 
     /**
@@ -129,7 +137,7 @@ class BaseTask {
      * @return bool|int 返回更新行数
      */
     public function update($table, $data, $dtStatDate = null, $deleteOldData = true) {
-        Helper::log("updating result db `$table` .....");
+//        Helper::log("updating result db `$table` .....");
         if (empty($data)) {
             return 0;
         }
