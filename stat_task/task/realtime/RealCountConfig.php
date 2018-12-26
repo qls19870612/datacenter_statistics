@@ -11,14 +11,16 @@ namespace task\realtime;
 class RealCountConfig
 {
 
-    public static $onlineUrl;
+    public static $onlinePath;
+    public static $onlineHost;
     public static $rechargeUrl;
     public static $key;
     public static $serversUrl;
 
-    public static function initOnlineUrl($serversUrl, $url, $key)
+    public static function initOnlineUrl($serversUrl, $onlineHost, $onlinePath, $key)
     {
-        RealCountConfig::$onlineUrl = $url;
+        RealCountConfig::$onlinePath = $onlinePath;
+        RealCountConfig::$onlineHost = $onlineHost;
         RealCountConfig::$key = $key;
         RealCountConfig::$serversUrl = $serversUrl;
     }

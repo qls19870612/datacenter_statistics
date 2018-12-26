@@ -1,17 +1,19 @@
 <?php
+
 namespace common\ParallelCurl;
 
-use common\Helper;
-use \Thread;
+use Thread;
 
-class AsyncOperation extends Thread {
+class AsyncOperation extends Thread
+{
     public $url;
     public $storage;
     public $complete;
     public $sid;
     public $data;
 
-    public function __construct($url, $storage, $sid, $data = null) {
+    public function __construct($url, $storage, $sid, $data = null)
+    {
         $this->url = $url;
         $this->storage = $storage;
         $this->sid = $sid;
@@ -19,7 +21,8 @@ class AsyncOperation extends Thread {
         $this->data = $data;
     }
 
-    public function run() {
+    public function run()
+    {
         $data = $this->getByCurl();
         if (empty($data)) {
             echo 'FAILED ' . $this->url . PHP_EOL;
@@ -30,7 +33,8 @@ class AsyncOperation extends Thread {
         $this->complete = true;
     }
 
-    public function getByCurl() {
+    public function getByCurl()
+    {
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_URL, $this->url);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
@@ -38,7 +42,7 @@ class AsyncOperation extends Thread {
         curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 10);
         curl_setopt($ch, CURLOPT_TIMEOUT, 3);
 
-        if ($this->data!==null) {
+        if ($this->data !== null) {
             curl_setopt($ch, CURLOPT_POST, 1);
             $str = http_build_query($this->data);
             curl_setopt($ch, CURLOPT_POSTFIELDS, $str);
@@ -53,7 +57,8 @@ class AsyncOperation extends Thread {
         return $content;
     }
 
-    public function isComplete() {
+    public function isComplete()
+    {
         return $this->complete === true;
     }
 }

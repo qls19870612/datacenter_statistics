@@ -11,6 +11,8 @@ namespace app;
 
 use common\Helper;
 use common\ParallelCurl\AsyncOperation;
+use httputils\Curl;
+use httputils\Curl_request;
 use task\realtime\online\OnlineCount;
 use task\realtime\RealCountConfig;
 
@@ -39,7 +41,7 @@ class OnlineCountJob extends StatisticJob
     protected function initConfig($config)
     {
         parent::initConfig($config); //
-        RealCountConfig::initOnlineUrl($config['servers_url'], $config['online_url'], $config['server_key']);
+        RealCountConfig::initOnlineUrl($config['servers_url'], $config['online_host'], $config['online_path'], $config['server_key']);
     }
 
     public function run()
@@ -68,25 +70,30 @@ class OnlineCountJob extends StatisticJob
         if (file_exists($serverListPath)) {
             $fileModifyTime = filemtime($serverListPath);
 
-            if ($fileModifyTime + 10 * 60000 > time()) {
+            if ($fileModifyTime + 600 > time()) {
                 //文件未过期
                 $serverListData = file_get_contents($serverListPath);
-                $this->serverList = json_decode($serverListData);
+                if (count_chars($serverListData) > 0) {
+                    $this->serverList = json_decode($serverListData);
+                }
             }
         }
         if ($this->serverList == null) {
 
             $sid = 1;
+            Helper::log('RealCountConfig::$serversUrl:' . RealCountConfig::$serversUrl);
             $httpClient = new AsyncOperation(RealCountConfig::$serversUrl, array(), $sid);
-            $httpClient->start() && $httpClient->join();
+            $httpClient->run() && $httpClient->join();
             $returnData = $httpClient->storage[$sid];
             file_put_contents($serverListPath, $returnData);
+            Helper::log('$returnData:' . $returnData);
             $this->serverList = json_decode($returnData);
+            if (count($this->serverList) <= 0) exit(0);
         }
 
     }
 
-    function callback($response, $info, $error, $request)
+    function callback($response, $info, $request)
     {
         $this->callCount++;
 
@@ -140,7 +147,7 @@ class OnlineCountJob extends StatisticJob
         $curl = new Curl ($this, "callback");
         $count = 1;//平台计数
 //        for ($i = 0; $i < 1000; $i++) {
-
+        Helper::log('requestCurl:' . count($this->serverList));
         foreach ($this->serverList as $server) {//遍历平台
 
             $data = array();
@@ -155,13 +162,14 @@ class OnlineCountJob extends StatisticJob
             $data['WorldID'] = $server->sid;
             $data['sign'] = RealCountConfig::getSign($data);
             $params = http_build_query($data);
-            $request = new Curl_request (RealCountConfig::$onlineUrl . $params);
+            $request = new Curl_request (RealCountConfig::$onlineHost . RealCountConfig::$onlinePath . $params);
+//            $request = new Curl_request ($server->domain . RealCountConfig::$onlinePath . $params);
             $curl->add($request);
             $count++;
         }
 //        }
         $curl->execute();
-        echo $curl->display_errors();
+        Helper::log($curl->display_errors());
     }
 
     private function findNearFiveMinutes()
