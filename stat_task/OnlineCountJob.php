@@ -134,9 +134,9 @@ class OnlineCountJob extends StatisticJob
             );
         }
         if (count($worldPlayerCountList) > 0) {
-            $task->update('online_count', $worldPlayerCountList, $dtStatDate, false);
-            $task->update('tbrealrecharge', $worldTotalRechargeList, $dtStatDate, false);
-            $task->update('create_count', $worldTotalHeroCreateList, $dtStatDate, false);
+            $task->update('online_count', $worldPlayerCountList, $dtStatDate, true);
+            $task->update('tbrealrecharge', $worldTotalRechargeList, $dtStatDate, true);
+            $task->update('create_count', $worldTotalHeroCreateList, $dtStatDate, true);
 
         }
     }
@@ -162,8 +162,8 @@ class OnlineCountJob extends StatisticJob
             $data['WorldID'] = $server->sid;
             $data['sign'] = RealCountConfig::getSign($data);
             $params = http_build_query($data);
-            $request = new Curl_request (RealCountConfig::$onlineHost . RealCountConfig::$onlinePath . $params);
-//            $request = new Curl_request ($server->domain . RealCountConfig::$onlinePath . $params);
+//            $request = new Curl_request (RealCountConfig::$onlineHost . RealCountConfig::$onlinePath . $params);
+            $request = new Curl_request ($server->domain . RealCountConfig::$onlinePath . $params);
             $curl->add($request);
             $count++;
         }

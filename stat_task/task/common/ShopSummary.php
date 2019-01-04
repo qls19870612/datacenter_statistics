@@ -1,4 +1,5 @@
 <?php
+
 namespace task\common;
 
 use common;
@@ -25,6 +26,6 @@ class ShopSummary extends common\BaseTask
         group by iworldid,iShopType,iGoodsType,iGoodsId
         ";
 
-        $this->fetchAndUpdate($table_name, $sql);
+        $this->fetchAndUpdate($table_name, $sql, null, self::DB_TYPE_LOG);
     }
 }

@@ -13,7 +13,7 @@ if (file_exists(__DIR__ . '/tasklist_test.php')) {
     $task_test = require_once('tasklist_test.php');
     $config['task'] = array_merge($config['task'], $task_test);
 }
-$config['servers_url'] = 'http://123.207.115.217:21234/serversByJson';
+$config['servers_url'] = 'http://gd.xssyx.com/serversByJson';
 
 
 $config['online_host'] = 'http://192.168.1.16:19998';
